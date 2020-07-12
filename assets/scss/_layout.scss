@@ -1,0 +1,52 @@
+body {
+	font-family: "HelveticaNeue", Arial;
+	font-size: 14px;
+	font-weight: 400;
+}
+
+a {
+	color: inherit;
+	&:hover {
+		color: $color;
+	}
+}
+
+.container {
+	padding: 0 8px;
+	@media (min-width: 1600px) {
+		max-width: 1656px;
+	}
+	@media (min-width: 1366px) {
+		max-width: 1336px;
+	}
+}
+
+.main-menu {
+	li {
+		font-weight: bold;
+		color: rgba(#000000, 0.7);
+		font-size: 20px;
+		line-height: 25px;
+		a {
+			line-height: 25px;
+		}
+		&:not(:last-child) {
+			padding-right: 211px;
+		}
+	}
+}
+
+.slider-item {
+	min-height: 450px;
+	position: relative;
+	@media(min-width: 1366px) {
+		min-height: 964px;
+	}
+	.slider-item_caption {
+		position: absolute;
+		color: #fff;
+		width: 50%;
+		height: 100%;
+		background: rgba(#00B6EA, 0.42);
+	}
+}

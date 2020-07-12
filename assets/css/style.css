@@ -1,0 +1,91 @@
+@font-face {
+  font-family: 'HelveticaNeue';
+  src: url("../fonts/HelveticaNeue.eot?#iefix") format("embedded-opentype"), url("../fonts/HelveticaNeue.woff") format("woff"), url("../fonts/HelveticaNeue.ttf") format("truetype"), url("../fonts/HelveticaNeue.svg#HelveticaNeue") format("svg");
+  font-weight: normal;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'HelveticaNeue';
+  src: url("../fonts/HelveticaNeueBold.eot?#iefix") format("embedded-opentype"), url("../fonts/HelveticaNeueBold.woff") format("woff"), url("../fonts/HelveticaNeueBold.ttf") format("truetype"), url("../fonts/HelveticaNeueBold.svg#HelveticaNeueBold") format("svg");
+  font-weight: bold;
+  font-style: normal;
+}
+
+/* line 1, F:/Thinkview/panh/assets/scss/_layout.scss */
+body {
+  font-family: "HelveticaNeue", Arial;
+  font-size: 14px;
+  font-weight: 400;
+}
+
+/* line 7, F:/Thinkview/panh/assets/scss/_layout.scss */
+a {
+  color: inherit;
+}
+
+/* line 9, F:/Thinkview/panh/assets/scss/_layout.scss */
+a:hover {
+  color: #45B16E;
+}
+
+/* line 14, F:/Thinkview/panh/assets/scss/_layout.scss */
+.container {
+  padding: 0 8px;
+}
+
+@media (min-width: 1600px) {
+  /* line 14, F:/Thinkview/panh/assets/scss/_layout.scss */
+  .container {
+    max-width: 1656px;
+  }
+}
+
+@media (min-width: 1366px) {
+  /* line 14, F:/Thinkview/panh/assets/scss/_layout.scss */
+  .container {
+    max-width: 1336px;
+  }
+}
+
+/* line 25, F:/Thinkview/panh/assets/scss/_layout.scss */
+.main-menu li {
+  font-weight: bold;
+  color: rgba(0, 0, 0, 0.7);
+  font-size: 20px;
+  line-height: 25px;
+}
+
+/* line 30, F:/Thinkview/panh/assets/scss/_layout.scss */
+.main-menu li a {
+  line-height: 25px;
+}
+
+/* line 33, F:/Thinkview/panh/assets/scss/_layout.scss */
+.main-menu li:not(:last-child) {
+  padding-right: 211px;
+}
+
+/* line 39, F:/Thinkview/panh/assets/scss/_layout.scss */
+.slider-item {
+  min-height: 450px;
+  position: relative;
+}
+
+@media (min-width: 1366px) {
+  /* line 39, F:/Thinkview/panh/assets/scss/_layout.scss */
+  .slider-item {
+    min-height: 964px;
+  }
+}
+
+/* line 45, F:/Thinkview/panh/assets/scss/_layout.scss */
+.slider-item .slider-item_caption {
+  position: absolute;
+  color: #fff;
+  width: 50%;
+  height: 100%;
+  background: rgba(0, 182, 234, 0.42);
+}
+
+/*# sourceMappingURL=style.css.map */
